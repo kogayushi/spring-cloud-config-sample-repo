@@ -4,6 +4,9 @@ spring:
     port: 5672
     username: guest
     password: guest
+  datasource:
+    username: dbuser
+    password: '{cipher}AQBhChLABZOgq3XtI5FcB0DuuuU4pbyu37lOrz+PD0oBk6qy2cKJwJBzFBC5zLOYWZpCby9Bz0pBUaSz1HGaBwlUtZcmk7a/FyEmTMa7zTNh4JL5nnTC7VKNJQv66ch/dF1XQaEC9mk6eLc0GCffJr2NSftp5Nf9Ac1FGT46NAVUhn9JSP9n0OMvsTydknl9bX/1ht9XVpYSDAAGnAbBJOGC4sOW/lPzqZK2niRRxajvcu5I9YR5vP+mojO4q+h+ahjsy6XVv9HkoIu2Jzi3/nMZmKs9mZ7s4WoUyv2BiX6klt3qH12JxwYasDNhg1XnfIfzXPCHzHD9P26oLho1KoDaDfBvMEWcyqHuV/bnvBx+iv3Bv9Wqj+31Noep65oRvfI='
 
 info:
   foo: god
